@@ -4,7 +4,7 @@
 - 🌱 In this repository, I will post the source codes of solved problems and laboratory work in Assembly language on various topics (arithmetic operations, branching instructions, stack operations, file systems, etc.).
       I hope that the presented works will be useful for people interested in low-level programming and operating system mechanisms.
       The repository will be updated regularly.
-WARNING: To compile the source codes of laboratory work, the MASM 6.11 package was used in the context of the MS-DOS 6.22 operating system
+- WARNING: To compile the source codes of laboratory work, the MASM 6.11 package was used in the context of the MS-DOS 6.22 operating system
 - 💞️ I’m looking to collaborate on ...
 - 📫 You can contact me for now using this repository.
 - 😄 Pronouns: ...
