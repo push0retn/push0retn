@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @push0retn 
 - 👀 I am interested in digital circuitry, low-level programming using assembly language and C, Intel processor architecture and real (16), protected (x86) and long (x64) modes.
-      I also study the mechanisms of operating systems starting with ms dos, file systems (fat12, fat16, fat32, ntfs...) etc.
+      I also study the mechanisms of operating systems starting with ms dos, bios (inside), file systems (fat12, fat16, fat32, ntfs...) etc.
 - 🌱 In this repository, I will post the source codes of solved problems and laboratory work in Assembly language on various topics (arithmetic operations, branching instructions, stack operations, file systems, etc.).
       I hope that the presented works will be useful for people interested in low-level programming and operating system mechanisms.
       The repository will be updated regularly.
