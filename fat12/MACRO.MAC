@@ -1,0 +1,40 @@
+read_disk	macro	side, cyl, sector, count, buf
+
+mov ah, 2d		;function
+mov dl, 0		;0 = disk A
+mov dh, side		;side
+mov ch, cyl		;track
+mov cl, sector		;sector
+mov al, count		;count of sectors
+mov bx, offset buf	;buffer for write diskette
+int 13h
+
+endm
+
+outprog		macro
+
+mov ax, 4c00h
+int 21h
+
+endm
+
+print		macro	string
+
+mov ah, 9d
+mov dx, offset string
+int 21h
+
+endm
+
+write_disk	macro	side, cyl, sector, count, buf
+
+mov ah, 3d		;function
+mov dl, 0		;0 = disk A
+mov dh, side		;side
+mov ch, cyl		;track
+mov cl, sector		;sector
+mov al, count		;count of sectors
+mov bx, offset buf	;buffer for write diskette
+int 13h
+
+endm
